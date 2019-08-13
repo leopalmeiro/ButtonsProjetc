@@ -5,8 +5,11 @@ Come cool Effects for using with links.
 Technology using: Html5, Css3 and FlexBox.
 
 [E-mail](mailto:palmeiro.leonardo@gmail.com)
+
 [GitHub](https://github.com/leopalmeiro)
+
 [Linkedln](https://www.linkedin.com/in/leonardo-palmeiro-834a1755)
+
 [CodePen](https://codepen.io/Palmeiro)
 
 
