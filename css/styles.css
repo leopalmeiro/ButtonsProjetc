@@ -1,0 +1,125 @@
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     
+     body {
+         background-color: #fff;
+     }
+     
+     .container {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     
+     h1 {
+         display: block;
+         text-align: center;
+         margin: 20px;
+     }
+     /*********************
+    *   BUTTONS CONFIG    *
+    **********************/
+     
+     .btn {
+         display: inline-block;
+         height: 50px;
+         width: 140px;
+         color: #000;
+         padding-top: 15px;
+         text-align: center;
+     }
+     
+     .btn:link,
+     .btn:visited {
+         text-transform: uppercase;
+         text-decoration: none;
+     }
+     /*********************
+    *      BUTTON 01     *
+    **********************/
+     
+     .text-buttom01:hover {
+         color: rgb(255, 95, 95);
+         transition: 0.5s;
+     }
+     
+     .text-buttom01:active {
+         color: blue;
+     }
+     /*********************
+    *      BUTTON 02     *
+    **********************/
+     
+     .text-buttom02:hover {
+         color: rgb(255, 95, 95);
+         transform: scale(1.5);
+         transition: 0.3s;
+     }
+     
+     .text-buttom02:active {
+         color: blue;
+     }
+     /*********************
+    *      BUTTON 03     *
+    **********************/
+     
+     .text-buttom03::after {
+         content: "";
+         display: block;
+         width: 0;
+         height: 2px;
+         background: #000;
+         /* transition with the color started with black then finish with violet */
+         transition: 0.5s;
+     }
+     
+     .text-buttom03:hover::after {
+         width: 100%;
+         background: violet;
+     }
+     
+     .text-buttom03:active {
+         color: blue;
+     }
+     /*********************
+    *      BUTTON 04     *
+    **********************/
+     
+     .text-buttom04::after {
+         content: "";
+         display: block;
+         width: 0%;
+         margin: auto;
+         /* fadding center to the edges */
+         height: 2px;
+         background: transparent;
+         transition: .5s;
+     }
+     
+     .text-buttom04:hover::after {
+         width: 100%;
+         background: blue;
+     }
+     
+     .text-buttom04:active {
+         color: blue;
+     }
+     /*********************
+    *      BUTTON 05     *
+    **********************/
+     
+     .text-buttom05:hover {
+         background-color: #2980b9;
+         transition: .5s ease-in;
+         color: #ecf0f1;
+     }
+     
+     .text-buttom05:active {
+         color: #ecf0f1;
+         background-color: #3498db;
+         transition: .1s ease-out;
+     }
