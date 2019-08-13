@@ -4,8 +4,8 @@ Project created for help new developers understood more about html5 and css3.
 Come cool Effects for using with links.
 Technology using: Html5, Css3 and FlexBox.
 
-[Email](palmeiro.leonardo@gmail.com)
-[github](https://github.com/leopalmeiro)
+[E-mail](mailto:palmeiro.leonardo@gmail.com)
+[GitHub](https://github.com/leopalmeiro)
 [Linkedln](https://www.linkedin.com/in/leonardo-palmeiro-834a1755)
 [CodePen](https://codepen.io/Palmeiro)
 
