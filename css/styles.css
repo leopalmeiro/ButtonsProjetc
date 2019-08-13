@@ -20,6 +20,12 @@
          text-align: center;
          margin: 20px;
      }
+     
+     h2 {
+         display: block;
+         text-align: center;
+         margin: 20px;
+     }
      /*********************
     *   BUTTONS CONFIG    *
     **********************/
@@ -122,4 +128,74 @@
          color: #ecf0f1;
          background-color: #3498db;
          transition: .1s ease-out;
+     }
+     /***********************
+    * Input Button Section  *
+    ************************/
+     
+     .input-btn {
+         display: inline-block;
+         height: 50px;
+         width: 140px;
+         margin: 20px;
+         text-transform: uppercase;
+         outline: none;
+     }
+     
+     .input-btn-ghost {
+         background-color: transparent;
+         border: 1px #000;
+         border-style: solid;
+     }
+     
+     .input-btn-ghost:hover {
+         cursor: pointer;
+         background-color: #2980b9;
+         color: #fff;
+         border-color: #fff;
+         transition: .4s linear;
+     }
+     
+     .input-btn-ghost:active {
+         background-color: #3498db;
+         transition: .2s ease-out;
+         color: #fff;
+         border-color: #fff;
+     }
+     
+     .input-btn-ghost-rounded {
+         border-radius: 5px;
+     }
+     
+     .input-btn-ghost-cicle {
+         border-radius: 50px;
+     }
+     
+     .input-btn-ghost-dashed {
+         background-color: transparent;
+         border: 1px #000;
+         border-style: solid;
+     }
+     
+     .input-btn-ghost-dashed:hover {
+         background-color: transparent;
+         border: 2px #000;
+         border-style: dashed;
+         transition: .2s linear;
+         cursor: pointer;
+     }
+     
+     .input-btn-ghost-dashed-circle:hover {
+         background-color: transparent;
+         border: 2px #000;
+         border-radius: 50px;
+         border-style: dashed;
+         transition: .2s ease;
+     }
+     
+     .input-btn-ghost-dashed:active {
+         background-color: #2980b9;
+         border-color: #2980b9;
+         color: #fff;
+         transition: .1s ease;
      }
